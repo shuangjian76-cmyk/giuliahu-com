@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://giuliahu.com/sitemap.xml
+
+# feed: https://giuliahu.com/it/feed.xml
+# feed: https://giuliahu.com/zh/feed.xml
+# feed: https://giuliahu.com/en/feed.xml
