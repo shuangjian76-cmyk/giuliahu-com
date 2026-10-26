@@ -281,6 +281,27 @@ html[lang="zh"] .eroe h1 .riga-2{color:var(--bronze-dark)}
 .promessa__scatola h3{color:var(--white);margin-bottom:1rem;position:relative}
 .promessa__scatola p{color:rgba(251,249,245,.82);font-size:.9375rem;position:relative;margin:0}
 
+/* ---------------------------------------------------------------- ritratto */
+
+.ritratto{
+  display:grid;gap:clamp(1.5rem,4vw,2.5rem);grid-template-columns:1fr;
+  align-items:center;margin:0 0 clamp(2.5rem,5vw,4rem);
+  padding-bottom:clamp(2rem,4vw,3rem);border-bottom:var(--rule);
+}
+@media(min-width:760px){
+  .ritratto{grid-template-columns:minmax(0,300px) minmax(0,1fr);gap:clamp(2rem,5vw,4rem)}
+}
+.ritratto__img{
+  display:block;width:100%;max-width:300px;height:auto;
+  border-radius:2px;background:var(--paper-2);
+}
+.ritratto__nota{display:grid;align-content:center;gap:0}
+.ritratto__frase{
+  font-family:var(--serif);font-size:clamp(1.35rem,1.05rem + 1.2vw,1.95rem);
+  line-height:1.2;margin:.55rem 0 0;max-width:24ch;
+}
+.ritratto__ruolo{font-size:1.0625rem;color:var(--ink-80);margin:1rem 0 0;max-width:46ch}
+
 /* ----------------------------------------------------------------- servizi */
 
 .servizi{display:grid;gap:0;border-top:var(--rule)}
